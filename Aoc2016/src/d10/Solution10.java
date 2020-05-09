@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.*;
 public class Solution10 {
 
     public static void main(String[] args) throws Exception {
-        List<String> lines = Files.readAllLines(Paths.get("src", "d10", "Solution10.txt"));
+        List<String> lines = Files.readAllLines(Paths.get("test", "d10", "Solution10.txt"));
 
         int first = 17;
         int second = 61;

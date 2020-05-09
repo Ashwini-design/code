@@ -19,7 +19,7 @@ public class Solution {
 
     public static void main(String[] args) {
         try {
-            String[] data = parseDataFile("src/d1/data.txt");
+            String[] data = parseDataFile("test/d1/data.txt");
 
             // String[] data = parseDataString({yourInputsHere});
 

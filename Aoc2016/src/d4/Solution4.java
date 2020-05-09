@@ -14,7 +14,7 @@ public class Solution4 {
 
     public static void main(String[] args) {
         try {
-            List<String> data = parseDataFile("src/d4/data.txt");
+            List<String> data = parseDataFile("test/d4/data.txt");
             List<Room> rooms = parseData(data);
             rooms.stream().filter(Solution4::isValidRoom).forEach(Solution4::rotateCharacters);
 
